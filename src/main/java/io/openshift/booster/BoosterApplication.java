@@ -25,6 +25,7 @@ public class BoosterApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(BoosterApplication.class, args);
+        System.out.println("Openshift Demo");
     }
 
     @Bean
